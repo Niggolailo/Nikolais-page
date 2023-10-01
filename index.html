@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nikolai's Nettside</title>
+</head>
+<style>
+    body{
+        transition: all 1.5s ease;
+    }
+    img{
+        display: block;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        display: block;
+        margin: auto;
+    }
+    select{
+        display: block;
+        margin: auto;
+    }
+</style>
+<body>
+    <h1 style="text-align: center; font-style: italic; font-size: xxx-large; color: aqua; margin: auto;">
+        Nikolai’s Page
+    </h1>
+    <button onclick="Reveal()">Do Not Click!</button>
+    <div id="Message" style="display:none">
+        <p style="text-align: center; font-style: italic; color: deeppink; margin: 3mm;"> 
+            I Said Not To Click!
+        </p>
+        <button id="Message" onclick="Hide()">Click To Fix Mistake</button>
+        <p style="text-align: center; font-style: italic; color: deeppink; margin: auto;">
+            Press Me!⬇️
+        </p>
+        <button id="CountDownButton" onclick="CountDown()">10</button> 
+    </div>
+    <select onchange="color(this.value)">
+        <option value="White">White</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Black">Black</option> 
+        <option value="Yellow">Yellow</option>
+        <option value="purple">Purple</option>
+        <option value="pink">Pink</option>
+        <option value="magenta">Magenta</option>
+        <option value="limegreen">Lime Green</option>
+        <option value="turquoise">turquoise</option>
+    </select>
+    <script src="script.js"></script>
+    <img src="Bilder/Nigolai.jpg" id="Nigolai" width="500" height="500">
+    <img src="Bilder/Tissmagbror.JPG" id="Nigolai" width="500" height="500">
+</body>
+</html>
